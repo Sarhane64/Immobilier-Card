@@ -18,7 +18,7 @@ img {
   border-radius: 10px;
 }
 textarea {
-  height: 125px;
+  height: 100px;
   width: auto;
   border: none;
   background: none;
@@ -72,3 +72,31 @@ textarea {
   font-size: 2.1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.container-price_pro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro-display{
+    font-size: 0.9rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px; 
+}
+
+.isFavorite {
+    width: 30px;
+    height: 30px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/35/Emoji_u2665.svg');
+    background-size: 100%;
+    align-self: flex-start;
+  }
+  .notFavorite {
+    width: 30px;
+    height: 30px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4f/Ei-heart.svg');
+    background-size: 100%;
+    align-self: flex-start;
+  }
+  

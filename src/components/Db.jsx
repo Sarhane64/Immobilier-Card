@@ -9,7 +9,7 @@ const Db = () => {
         "Charmante maison de campagne avec jardin spacieux et vue imprenable sur les collines environnantes. La propriété comprend quatre chambres, deux salles de bains et une cuisine entièrement équipée. Parfait pour les amoureux de la nature et de la tranquillité.",
       adresse: "123 Rue de la Campagne, 75000 Paris, France",
       like: null,
-      pro: null,
+      pro: true,
     },
     {
       name:"Appartement Lumineux",  
@@ -53,7 +53,7 @@ const Db = () => {
         "Maison moderne avec piscine et vue sur la mer. Quatre chambres spacieuses, un salon élégant et une cuisine design. Profitez du style de vie méditerranéen dans cette magnifique propriété.",
       adresse: "555 Chemin de la Mer, 06000 Nice, France",
       like: null,
-      pro: null,
+      pro: true,
     },
     {
       name:"Appartement moderne",  
@@ -64,7 +64,7 @@ const Db = () => {
         "Appartement récemment rénové dans un quartier animé. Trois chambres lumineuses, une cuisine moderne et un salon confortable. Idéal pour les jeunes professionnels et les familles.",
       adresse: "222 Boulevard des Arts, 44000 Nantes, France",
       like: null,
-      pro: null,
+      pro: true,
     },
     {
       name:"Villa Spacieuse",  
@@ -75,7 +75,7 @@ const Db = () => {
         "Villa spacieuse avec jardin paysager. Cinq chambres élégantes, un grand salon et une cuisine entièrement équipée. Profitez d'une intimité totale dans ce havre de paix situé à proximité des commodités.",
       adresse: "777 Avenue de la Tranquillité, 25000 Besançon, France",
       like: null,
-      pro: null,
+      pro: true,
     },
     {
       name: "Appartement en duplex",  
@@ -86,7 +86,7 @@ const Db = () => {
         "Appartement en duplex avec vue sur la rivière. Deux chambres confortables, une terrasse privée et un accès facile aux sentiers de randonnée environnants. Vivez au plus près de la nature dans ce magnifique refuge.",
       adresse: "909 Rue de la Rivière, 80000 Amiens, France",
       like: null,
-      pro: null,
+      pro: true,
     },
   ];
   return array;

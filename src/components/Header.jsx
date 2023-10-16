@@ -1,9 +1,10 @@
+
 import Logo from "./tools/Logo.jsx";
 
 const Header = () => {
     return (
         <div>
-            <Logo />
+            <Logo/>       
         </div>
     );
 };
